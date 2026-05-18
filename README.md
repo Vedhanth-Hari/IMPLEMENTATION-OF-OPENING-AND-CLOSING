@@ -26,8 +26,8 @@ Use Closing Operation.
 
 ## Program:
 
-### DEVELOPED BY: KATHI HASINI
-### REGISTER NO: 212224240074
+### DEVELOPED BY: VEDHANTH H
+### REGISTER NO: 212224240181
 
 
 ### Import the necessary packages
@@ -40,7 +40,7 @@ import matplotlib.pyplot as plt
 ```
 img = np.zeros((100, 550), dtype = 'uint8')
 font = cv2.FONT_ITALIC
-cv2.putText(img, 'MOUNIKA', (5,70), font, 2, (255), 5, cv2.LINE_AA)
+cv2.putText(img, 'VEDHANTH', (5,70), font, 2, (255), 5, cv2.LINE_AA)
 n_img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 plt.imshow(n_img)
 plt.axis("off")
@@ -65,15 +65,18 @@ plt.axis("off")
 
 ## Output:
 ### Display the input Image:
-<img width="614" height="111" alt="image" src="https://github.com/user-attachments/assets/0211a795-ed6e-4e11-abd2-e13b54fce062" />
+
+<img width="611" height="100" alt="image" src="https://github.com/user-attachments/assets/fe5b2f4a-7e15-4988-9597-f5a3a14db8d8" />
 
 
 ### Display the result of Opening:
-<img width="614" height="105" alt="image" src="https://github.com/user-attachments/assets/0e017c97-afb1-4626-89fd-c8158d2fd359" />
+<img width="608" height="110" alt="image" src="https://github.com/user-attachments/assets/ca02e2e2-89c1-4615-b0aa-d189c9e81966" />
+
 
 
 ### Display the result of Closing:
-<img width="613" height="104" alt="image" src="https://github.com/user-attachments/assets/79b95059-117e-4900-8bde-d2cba411a419" />
+
+<img width="613" height="110" alt="image" src="https://github.com/user-attachments/assets/b5785bdf-5b03-41a3-91c0-21fa9b814e77" />
 
 
 
